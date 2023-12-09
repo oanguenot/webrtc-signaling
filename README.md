@@ -16,7 +16,7 @@ $ node signaling-server.js
 
 ### Client
 
-You need to install a server to serve the client files. You can use the server in this repository or any other server.
+You need to install an HTTP server to serve the client files. You can use the server in this repository or any other server.
 
 ## Usage
 
