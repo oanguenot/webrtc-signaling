@@ -1,0 +1,241 @@
+.hidden {
+  display: none;
+}
+
+.highlight {
+  background-color: #eee;
+  font-size: 1.2em;
+  margin: 0 0 30px 0;
+  padding: 0.2em 1.5em;
+}
+
+.warning {
+  color: red;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 1em;
+  word-break: break-word;
+}
+
+button {
+  background-color: #d84a38;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  margin: 0 0 1em 0;
+  padding: 0.5em 0.7em 0.6em 0.7em;
+}
+
+button:active {
+  background-color: #cf402f;
+}
+
+button:hover {
+  background-color: #cf402f;
+}
+
+button[disabled] {
+  color: #ccc;
+}
+
+button[disabled]:hover {
+  background-color: #d84a38;
+}
+
+canvas {
+  background-color: #ccc;
+  max-width: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+div#container {
+  margin: 36px 0;
+  max-width: 100%;
+}
+
+div#links {
+  padding: 0.5em 0 0 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ccc;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0 0 0.8em 0;
+  padding: 0 0 0.2em 0;
+}
+
+h2 {
+  color: #444;
+  font-weight: 500;
+}
+
+h3 {
+  border-top: 1px solid #eee;
+  color: #666;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+  white-space: nowrap;
+}
+
+li {
+  margin: 0 0 0.4em 0;
+}
+
+.area {
+  width: 100%;
+  height: 800px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  overflow: scroll;
+}
+
+#testState {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 200px;
+  display: inline-block;
+  border: 1px #999 dashed;
+  height: 27px;
+  line-height: 27px;
+  text-align: left;
+  font-size: 12px;
+  padding: 0 0 0 12px;
+}
+
+video {
+  width: 64px;
+  height: 64px;
+  margin: 0 0 20px 0;
+  vertical-align: top;
+  background: #222;
+}
+
+canvas {
+  width: 64px;
+  height: 64px;
+  display: none;
+}
+
+.largeVideo {
+  width: 640px;
+  height: 480px;
+  margin: 0 0 20px 0;
+  vertical-align: top;
+  background: #222;
+}
+
+.res_1080p {
+  width: 320px;
+  height: 180px;
+  margin: 0;
+  vertical-align: top;
+  background: #222;
+}
+
+textarea {
+  width: 45%;
+  height: 700px;
+}
+
+.canvasGraph {
+  background-color: #fff !important;
+  max-width: 100%;
+  width: 100%;
+}
+
+.muc-section {
+  display: flex !important;
+}
+
+.muc-user {
+  padding: 4px;
+}
+
+.muc-events {
+  width: 300px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+#soundStatus {
+  width: 200px;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
+#permissionStatus {
+  width: 200px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
+#muteStatus {
+  width: 200px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
+.boxAudio {
+  display: flex;
+  padding: 2px;
+}
+
+.videoCheck, .canvasCheck {
+  width: 640px;
+  height: 480px;
+}
+
+.selector {
+  width: 250px;
+  margin-right: 10px;
+}
+
+.constraint-input {
+  width: 583px;
+  margin-right: 10px;
+}
+
+div.box {
+  margin-top: 1em;
+}
+
+.list {
+  width: 700px;
+  margin-top: 10px;
+}
+
+ol{
+  /* As width is 10 so it
+  will create 3 columns */
+  width: 100%;
+  margin: 10px 0 0 0;
+
+  /* Removes any style
+     in list */
+  list-style: none;
+  display: inline-block;
+}
+ol li{
+
+  /* Makes the list to
+     float left */
+  float: left;
+
+  /* Size of one list item */
+  width: 15em;
+}

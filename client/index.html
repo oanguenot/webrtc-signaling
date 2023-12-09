@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Signaling</title>
+    <meta name="description" content="WebRTC for Developers">
+    <meta name="author" content="oanguenot@gmail.com">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+<section>
+    <h1>Signaling</h1>
+    <p>This sample does some signaling methods</p>
+</section>
+<section>
+    <div id="container">
+        <div>
+            <label>Channels</label>
+            <select id="signaling">
+                <option value="stream">Stream API</option>
+                <option value="sse">SSE</option>
+                <option value="websocket" selected>WebSocket</option>
+            </select>
+        </div>
+        <br/>
+        <div>
+            <label>Transport</label>
+            <button id="connect1Button">Connect Bob</button>
+            <button id="connect2Button">Connect Alice</button> | <button id="disconnectButton">Disconnect</button>
+            <br/>
+            <Label>WebRTC</Label>
+            <button id="startButton">Open DataChannel</button>
+            <button id="endButton">Close</button>
+        </div>
+    </div>
+</section>
+<script src="signaling.js" type="module"></script>
+</body>
+</html>
